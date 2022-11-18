@@ -1130,6 +1130,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1437566746705059459}
+  - component: {fileID: 2713447972708953233}
   m_Layer: 0
   m_Name: BlueTank
   m_TagString: Untagged
@@ -1137,6 +1138,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2713447972708953233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2713447972708953232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca1dcf5d0c1666a428a6866e5ae3e220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 224012598}
+  - {fileID: 1474463417}
+  - {fileID: 1238172442}
+  - {fileID: 218409570}
+  - {fileID: 359547150}
+  speed: 5
+  rotSpeed: 5
 --- !u!33 &2906081035041282102
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1518,6 +1539,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9048989675280529225}
+  - component: {fileID: 5462622198115272027}
   m_Layer: 0
   m_Name: RedTank
   m_TagString: Untagged
@@ -1525,6 +1547,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5462622198115272027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5462622198115272026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca1dcf5d0c1666a428a6866e5ae3e220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 224012598}
+  - {fileID: 1474463417}
+  - {fileID: 1238172442}
+  - {fileID: 218409570}
+  - {fileID: 359547150}
+  speed: 3
+  rotSpeed: 10
 --- !u!23 &5583166799895348311
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1824,6 +1866,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7871142010654116010}
+  - component: {fileID: 6584456359551941306}
   m_Layer: 0
   m_Name: YellowTank
   m_TagString: Untagged
@@ -1831,6 +1874,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6584456359551941306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6584456359551941305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca1dcf5d0c1666a428a6866e5ae3e220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 224012598}
+  - {fileID: 1474463417}
+  - {fileID: 1238172442}
+  - {fileID: 218409570}
+  - {fileID: 359547150}
+  speed: 7
+  rotSpeed: 5
 --- !u!1 &6591627735941132299
 GameObject:
   m_ObjectHideFlags: 0
@@ -1867,6 +1930,7 @@ MonoBehaviour:
   - {fileID: 218409570}
   - {fileID: 359547150}
   speed: 10
+  rotSpeed: 1
 --- !u!4 &6604635911952330042
 Transform:
   m_ObjectHideFlags: 0
